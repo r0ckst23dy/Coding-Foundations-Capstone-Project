@@ -1,0 +1,70 @@
+.navigation-bar-wrapper{
+    background-color: black;
+    font-family: 'Prompt', sans-serif;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    border: none;
+
+}
+
+.navigation-bar-wrapper > .nav-bar-img{
+    display:flex;
+    align-content: center;
+ 
+}
+
+.navigation-bar-wrapper > .nav-bar-img img{
+    height: 100%;
+    width: 300px;
+    filter: invert(100);
+
+}
+
+.navigation-bar-wrapper > .explore-wrapper {
+    display: grid;
+    width: 350px;
+
+}
+
+.navigation-bar-wrapper > .explore-wrapper h3 {
+    color: yellow;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 0;
+}
+
+
+.navigation-bar-wrapper > .explore-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+.navigation-bar-wrapper > .explore-wrapper > .links-wrapper a {
+ text-decoration-line: none;
+ font-weight: bold;
+ font-size: 1.4em;
+ color: white;
+ transition:0.5s;
+ 
+}
+
+.navigation-bar-wrapper > .explore-wrapper > .links-wrapper a:hover {
+    color:yellow;
+    
+}
+
+
+.navigation-bar-wrapper > .search-icon i{
+    display: flex;
+    font-size: 2.5em;
+    color:grey;
+    margin-top:45px;
+}
+

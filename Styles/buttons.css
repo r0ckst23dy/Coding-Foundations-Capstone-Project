@@ -1,0 +1,96 @@
+.navigation-bar-wrapper > .spark-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    color: Grey;
+    font-size: 1.5em;
+    padding-top: 30px;
+    margin-right:50px;
+    
+}
+
+.navigation-bar-wrapper > .create-button button{
+    background-color: rgb(32, 31, 31);
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    border:black;
+    border-radius: 5px;
+    font-size: 1.25em;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    font-weight: 450;
+
+}
+
+.navigation-bar-wrapper > .log-in-button button {
+    background-color: rgb(32, 31, 31);
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    border:black;
+    border-radius: 5px;
+    font-size: 1.25em;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    font-weight: 450;
+
+}
+
+.navigation-bar-wrapper > .sign-in-button button{
+    background-color: rgb(32, 31, 31);
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    border:black;
+    border-radius: 5px;
+    font-size: 1.25em;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    font-weight: 450;
+
+}
+
+.body-wrapper > .discription-wrapper > .button-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+
+}
+
+.body-wrapper > .discription-wrapper > .button-wrapper > .sign-up-button button{
+    background-color:rgb(18, 194, 86);
+    color: black;
+    font-family:'Prompt', sans-serif;
+    font-size: 2em;
+    border-color: rgb(18, 194, 86);
+    border-radius:5px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:25px;
+    padding-right:25px;
+    filter: opacity(90%);
+    margin-right:50px;
+
+}
+
+.body-wrapper > .discription-wrapper > .button-wrapper > .learn-more-button button{
+    background-color: black;
+    color:white;
+    font-family:'Prompt', sans-serif;
+    font-size: 2em;
+    border-color: black;
+    border-radius:5px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:25px;
+    padding-right:25px;
+
+}
+

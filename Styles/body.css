@@ -1,0 +1,95 @@
+.body-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height:585px;
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    font-family:'Prompt', sans-serif;
+    padding-top:50px;
+    column-gap: 40px;
+    /* filter: drop-shadow(-5px, -5px, 5px, black); ??? not working :( ??? */
+}
+
+.body-wrapper > .discription-wrapper{
+    display: flex;
+    justify-content: left;
+    height: 100px;
+    flex-direction: column;
+    margin-right:50px;
+    margin-left:30px;
+    margin-bottom: 30px;
+
+}
+
+.body-wrapper > .discription-wrapper > .codepen-sentence{
+ display: flex;
+ flex-direction:row;
+ justify-content: left;
+ font-size:2.25em;
+ font-weight: 200;
+ 
+ 
+}
+
+.body-wrapper > .discription-wrapper > .codepen-sentence i{
+    border: black;
+    color: rgba(255, 214, 100, 0.822);
+    size: 3em;
+    margin-left: 5px;
+    
+}
+
+
+.body-wrapper > .discription-wrapper > .opinion-sentence{
+    display: flex;
+    justify-content: left;
+    font-size: 1.8em;
+    filter:opacity(25%);
+
+}
+
+
+.body-wrapper > .codepen-image-wrapper{
+    display: flex;
+    flex-direction: column;
+    height:100px;
+    margin-top:40px;
+    margin-right:0px;
+    border-right: none;
+    margin-left:20px;
+    
+
+}
+
+.body-wrapper > .codepen-image-wrapper > .project-wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    font-family:'Prompt', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size:1.35em;
+
+}
+
+.body-wrapper > .codepen-image-wrapper > .project-wrapper > .codepen{
+ color: rgb(2, 204, 204);
+ padding-left: 3px;
+ filter:opacity(80%);
+ font-weight: bold;
+
+}
+
+.body-wrapper > .codepen-image-wrapper > .codepen-image img{
+    height: 100%;
+    width: 600px;
+    margin-right:px;
+    border:none;
+    
+}
+
+
+
+
